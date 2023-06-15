@@ -4,11 +4,7 @@ Pregunta
 ===========================================================================
 
 Escriba una consulta que compute la cantidad de registros por letra de la 
-columna 2 y clave de la columna 3; esto es, por ejemplo, la cantidad de 
-registros en tienen la letra `a` en la columna 2 y la clave `aaa` en la 
-columna 3 es:
-
-    a    aaa    5
+columna 2 y clave de la columna 3
 
 Apache Hive se ejecutará en modo local (sin HDFS).
 
@@ -32,7 +28,6 @@ LOAD DATA LOCAL INPATH 'data.tsv' INTO TABLE t0;
 /*
     >>> Escriba su respuesta a partir de este punto <<<
 */
-
 DROP TABLE IF EXISTS t0;
 DROP TABLE IF EXISTS datos;
 CREATE TABLE t0 (
